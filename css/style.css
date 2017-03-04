@@ -1,0 +1,207 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+*
+{ -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+   box-sizing: border-box;
+}
+.container-fluid {
+    background-color: white;
+    padding-top: 10px;
+}
+ h3 ,h4
+{
+    color: #454545;
+}
+p
+{
+    color: #8c8c8c;
+}
+hr
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+        border-top:5px solid #eee;
+}
+i {
+    padding-right: 3px;
+    color: #43bbea;}
+/*****start header*****/
+
+.header
+{margin-top: 35px;}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 16px 15px;
+    font-size: 19px;
+    line-height: 20px;
+    width: 145px;
+    background-color: black;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #43bbea;
+     background-color: white;
+        border-top: 1px solid #43bbea;
+}
+/*****End header*****/
+/*************start about*******/
+.about
+{margin-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.about .personal-info
+{border-left: 1px solid #EEE;
+}
+
+.about .personal-info .per_imag
+{border-bottom:5px solid #43bbea;
+    padding-bottom: 5px;
+}
+.about .details
+{
+    padding-left: 55px;
+}
+.about .details h5
+{
+    border-bottom: 1px solid #EEE;
+    padding-bottom: 17px;
+    color: #8c8c8c;
+}
+/*****end about*****/
+
+/*******start skills*****/
+.skills h2
+{
+margin: 10px 0px 25px 0px;
+}
+.skills .progress
+{
+    
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    width: 39%;
+    margin-top: 12px;
+    height: 17px;
+}
+.skills .progress .progress-bar
+{
+        text-align: left;
+    text-indent: 10px;
+}
+/********************************/
+.education
+{margin-bottom: 30px;}
+.eduction .time .btnsone 
+,.eduction .time .btnstwo 
+{    height: 42px;
+    width: 138px;
+    line-height: 3;
+    margin: auto;
+    text-align: center;
+    background-color: #43bbea;
+    color: white;
+    border-radius: 7%;
+
+}
+
+.eduction .time  i
+{
+    color: white
+}
+.eduction .descripe
+{
+    padding-left: 10px;
+  border-left:  3px solid #EEE;
+}
+
+/************start projects*********************/
+.our-projects
+{
+    color: black;/*/////////////////*/
+}
+.our-projects
+{
+    padding: 30px 0px 10px 0px;
+    color: black;
+    font-size: 20px;    
+}
+.our-projects i
+{
+    color: #FC5185;
+}
+.our-projects ul li
+{
+    display: inline-block;
+    border: 2px solid #D4CCCC;
+    padding: 10px;
+    margin:20px 7px 10px 7px;
+    color: #A7A7A7;
+    border-radius: 5px;    
+}
+.our-projects ul .selected
+{
+    background-color: #518dc1;
+        border: 2px solid #518dc1;
+
+}
+.our-projects .gallery
+{
+    margin-top:10px;
+    overflow: hidden;
+        margin-left: 32px;
+}
+.our-projects .gallery img
+{
+       padding: 7px 7px;
+       float: left; 
+    position: relative;
+    height: 151px;
+    width: 341px;
+}
+.our-projects .gallery .row > div .over
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 183px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    background-color: rgba(26,188,156,0.9);
+}
+.shuffule li 
+{
+    cursor: pointer;
+}
+.mix
+{
+    display: none;
+}
+/*************start footer*******************/
+
+
+
+/*************end footer********************/
+#518dc1
+#bdbdbd
+#454545
+#8c8c8c
+#43bbea;
